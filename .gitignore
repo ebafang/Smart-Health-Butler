@@ -1,0 +1,65 @@
+# ================== 编译产物 ==================
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.hex
+*.axf
+*.bin
+
+# Keil MDK 工程文件
+*.lst
+*.lnp
+*.dep
+*.crf
+*.d
+*.__i
+*.htm
+*.build_log.htm
+*.Bak
+*.scvd
+*.uvguix.*
+*.JLinkLog.txt
+JLink*
+*.iex
+*.map
+
+# ARM 编译产物
+robot/gec210/voicectl
+
+# STM32 编译产物
+stm32/*/OBJ/
+stm32/*/LIST/
+
+# ================== 依赖库 ==================
+# 第三方 .so 文件（讯飞SDK等，需用户自行获取）
+robot/gec210/lib/
+robot/x86/lib/
+
+# ================== IDE 配置 ==================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ================== 操作系统 ==================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ================== 日志文件 ==================
+*.log
+robot/x86/bin/msc/*.log
+
+# ================== 临时文件 ==================
+*.tmp
+*.bak
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# PCM 录音临时文件
+robot/x86/bin/pcm/
